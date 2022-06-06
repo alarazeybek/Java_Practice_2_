@@ -1,0 +1,12 @@
+Part 1
+you will implement a Java program with a Graphical User
+Interface that creates a stick figure object, of varying color and height. For this
+purpose, you should have a StickFigure class whose constructor takes the baseX
+and baseY coordinates (the coordinates of the bottom-center of the figure), color,
+and size (height) of the figure. Then, implement the methods setX and setY to set
+the x and y coordinates of the figure. Using these methods, animate the figure by
+sliding the figure on the floor from left to right. Use appropriate delay loops to control
+the animation so that the animations are visible.
+Part 2
+In this Part, you will implement the UI elements (buttons, dropdowns, checkboxes,
+etc.).

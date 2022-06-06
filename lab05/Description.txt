@@ -1,0 +1,41 @@
+This lab is about Recursion.
+
+Part 1
+Question 1
+Assume that Sarah purchases N apples on day 0. She eats either 2 or 3 apples each
+day starting from day 1. Write a recursive program that checks if she can have k
+apples at day a.
+
+Question 2
+In this question, you are going to help Mike Wazowski. He wants to download video
+games but his computer has limited storage of N GB. Each game Gi takes up Ai GB
+of space and has Bi Metacritic score. Metacritic score is between 0 and 100. A high
+score signals high-quality games. Mike’s aim is to maximize the Metacritic score of
+
+Part 2
+Question 3
+Carl Fredricksen is interested to solve the following problem while he is in his flying
+house. Assume there are two words; A and B. He wants to know how to convert
+word A to word B by only using the following operations a minimum number of times:
+1. Add a new character to A
+2. Remove character from A
+3. Substitute character in A
+Write a recursive program that, given A and B, calculates the smallest number of
+operations Carl needs to do to convert A to B.
+Example:
+A = exclamation, B = excavation
+exclamation -> excamation (remove l)
+excamation -> excavation (replace m with v)
+Minimum number of operations = 2
+
+Question 4
+Renowned scientific research company Aperture Science is trying to develop a portal
+technology. Help them by extending the recursive definition of Maze traversal code
+that we provided (MazeSearch.java and Maze.java by Lewis/Loftus) such that the
+agent can jump between portals. Each portal has two sides. If the agent steps into
+one side of the portal it will be teleported to the other side. That way, even if there is
+no road between two locations, it can reach its destination by jumping between
+portals. Note that there can be multiple portals. Also, the agent always starts from
+the top-left corner and its destination is bottom-right corner. At the end of the day,
+you should create a recursive program that traverses the Maze and tries to find if
+reaching the destination is possible by jumping through portals and walking.

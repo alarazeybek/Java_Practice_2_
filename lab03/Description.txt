@@ -1,0 +1,9 @@
+
+In this lab, you will implement a simple text-based game where you are an air
+force commander and you are defending your border from enemy vehicles trying
+to pass through.
+Helicopter - A class that extends EnemyVehicle. The difference between
+Helicopter and EnemyVehicle is that Helicopter objects should increase their
+speed after each move.
+Tank - A class that extends EnemyVehicle. The difference between the Tank
+and EnemyVehicle is that Tank objects should take less damage from attacks.

@@ -1,0 +1,10 @@
+Part 1: Finding gcd() by using Euclid's Algorithm
+Part 2: Summation & Substraction of two simplified equations.
+
+Sample Runs: (User inputs are shown in between *'s.)
+Enter the value of a, b and c for first equation: *3 2 1*
+Enter the value of a, b and c for second equation: *2 3 -1*
+Sum of the equations: 1 = x
+Enter the value of a, b and c for first equation: *2 3 -4*
+Enter the value of a, b and c for second equation: *7 4 -1*
+Subtraction of the equations: 5 = x + 3

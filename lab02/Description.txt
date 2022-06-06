@@ -1,0 +1,25 @@
+Part 1
+Write a class IntegerArray that keeps a very large integer in an integer array called digits whereas
+each digit will be kept in one element of the array. The constructor takes the number as a String
+and adds each digit character by character into the integer array. You can define a class variable to
+keep track of the number’s sign (i.e., positive or negative). Make sure you avoid leading zeros
+(00123 = 123) and the orientation of the IntegerArray is correct. You are not allowed to use
+BigInteger class (and its variants) in this assignment.
+Part 2
+Write IntegerArrayList class that keeps a list of IntegerArrays. The only attribute of
+IntegerArrayList is an ArrayList of IntegerArrays called numbers. The constructor takes an
+ArrayList of Strings that represents IntegerArray and one by one adds them to the numbers list as
+IntegerArrays
+
+Sample Run: 
+Please enter the filename: *Test3.txt*
+Output:
+start = 0
+middle = 2
+end = 4
+Minimum of all the numbers:
+21
+Minimum of the first half:
+21
+Minimum of the second half:
+41
